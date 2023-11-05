@@ -1,0 +1,52 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+.expo/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+ios/
+ios/flatlist-infinite-scrolling/
+ios/flatlist-infinite-scrolling.xcodeproj/
+ios/flatlist-infinite-scrolling.workspace/
+/ios/Pods/
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+.env
+.env.*
+!.env.example
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# Firebase Connection
+GoogleService-Info.plist
+
+# typescript
+*.tsbuildinfo
+RESOURCES
